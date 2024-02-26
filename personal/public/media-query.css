@@ -1,0 +1,264 @@
+@media screen and (max-width: 1400px) {
+    nav {
+        padding: 20px 60px;
+    }
+
+    .main {
+
+        padding: 0 60px;
+    }
+
+    .recent {
+        padding: 60 px
+    }
+
+    .featured {
+        padding: 0px 60px 0px;
+    }
+
+    .page-title-about {
+        padding: 80px 60px 20px;
+    }
+
+
+}
+
+@media screen and (max-width: 1200px) {
+
+    nav {
+        padding: 20px 40px;
+    }
+
+    .main {
+        padding: 0 40px;
+    }
+
+    .main img {
+        width: 340px;
+        height: 340px;
+    }
+
+    .recent {
+        padding: 40px;
+    }
+
+    .featured,
+    .separator {
+        padding: 40px 40px 0;
+    }
+
+    .featured .item .details p,
+    .works-list .item .details p {
+        width: 100%;
+    }
+
+    .page-title {
+        padding: 80px 40px 20px;
+    }
+
+    .content .work-info,
+    .content>p,
+    .content>img,
+    .content>h1,
+    .content>h2,
+    .content>h3,
+    .content .post-list .post-item,
+    .content .container {
+        width: 100%;
+    }
+
+    .content .container img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .content .container h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .content .container .about>p {
+        font-size: 14px;
+    }
+
+    .content-contact .container-contact {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    nav {
+        padding: 20px;
+    }
+
+    .main {
+        padding: 0 20px;
+    }
+
+    .main img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .main .info h1 {
+        font-size: 34px;
+    }
+
+    .main .info p {
+        font-size: 15px;
+    }
+
+    .main .info button {
+        font-size: 15px;
+        padding: 8px 22px;
+    }
+
+    .recent {
+        padding: 40px 20px;
+    }
+
+    .recent .posts .post-item {
+        width: 100%;
+    }
+
+    .recent .posts .post-item h3,
+    .content .post-list .post-item h3 {
+        font-size: 20px;
+        text-align: center;
+
+    }
+
+    .recent .posts .post-item .info {
+        justify-content: center;
+    }
+
+    .recent .posts .post-item .info h5,
+    .content .post-list .post-item .info h5 {
+        font-size: 14px;
+    }
+
+    .recent .posts .post-item p {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .featured,
+    .separator {
+        padding: 40px 20px 0;
+    }
+
+    .featured .item,
+    .works-list .item {
+        flex-direction: column;
+        padding: 0 20px 30px;
+    }
+
+    .featured .item img,
+    .works-list .item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .featured .item .details h3,
+    .works-list .details .item h3 {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .featured .item .details .item-info .year-badge,
+    .works-list .item .details .item-info .year-badge {
+        font-size: 12px;
+    }
+
+    .featured .item .details .item-info h4,
+    .works-list .item .details .item-info h4 {
+        font-size: 15px;
+    }
+
+    .featured .item .details p,
+    .works-list .item .details p {
+        font-size: 14px;
+    }
+
+    .content {
+        padding: 30px 20px 60px;
+    }
+
+    .content .container h2 {
+        font-size: 20px;
+    }
+
+    .content .container .about>p {
+        font-size: 13px;
+    }
+
+    .content-contact .container-contact {
+        align-items: normal;
+    }
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+    nav {
+        justify-content: center;
+        padding-right: 60px;
+    }
+
+    .main {
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+    }
+
+    .main .info h1 {
+        font-size: 30px;
+        margin-bottom: 16px;
+    }
+
+
+    .main .info button {
+        padding: 6px 20px;
+        font-size: 13px;
+    }
+
+    .main .info p {
+        margin-bottom: 0px;
+    }
+
+    .main img {
+        width: 100%;
+        height: auto;
+        border-radius: 50px;
+        margin-top: -80px;
+
+    }
+
+    .recent .posts,
+    .content .container {
+        flex-direction: column;
+    }
+
+    .content .container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .recent .posts .post-item {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    .page-title-about {
+        padding-right: 120px;
+    }
+
+    .content-contact {
+        padding: 30px 60px 60px;
+    }
+
+}
